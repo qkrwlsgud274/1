@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "client/",
+			"problemMatcher": [],
+			"label": "npm: start - client",
+			"detail": "node node_modules/react-native/local-cli/cli.js start",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
